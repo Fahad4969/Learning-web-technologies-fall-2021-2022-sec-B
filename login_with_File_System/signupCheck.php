@@ -10,15 +10,7 @@
 			if($password != ""){
 				if($email != ""){
 					
-					/*
-					setcookie('username', $username, time()+3600, '/');
-					setcookie('password', $password, time()+3600, '/');
-					setcookie('email', $email, time()+3600, '/');*/
-/*
-					$myfile = fopen('user.txt', 'w');
-					$user = $username."|".$password."|".$email;
-					fwrite($myfile, $user);
-					fclose($myfile);*/
+		
 
 					$myfile = fopen('user.txt', 'a');
 					$user = $username."|".$password."|".$email."\r\n";
@@ -27,13 +19,13 @@
 
 					header('location: login.html');
 				}else{
-					echo "invalid email...";
+					echo "invalid email";
 				}
 			}else{
-				echo "invalid password...";
+				echo "invalid password";
 			}
 		}else{
-			echo "invalid username...";
+			echo "invalid user";
 		}
 	}
 ?>
