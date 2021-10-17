@@ -20,12 +20,12 @@
 		</tr>
 		<tr>
 			<td  align="center" >
-				<a href="changepass.php">Change Password</a>
+				<a href="changepassword.php">Change Password</a>
 			</td>
 		</tr>
 		<tr>
 			<td  align="center" >
-				<a href="view.php">Viwe User</a>
+				<a href="view.php">view User</a>
 			</td>
 		</tr>
 		<tr>
