@@ -10,8 +10,7 @@
 			if($password != ""){
 				if($email != ""){
 					
-		
-
+				
 					$myfile = fopen('user.txt', 'a');
 					$user = $username."|".$password."|".$email;
 					fwrite($myfile, $user);
@@ -19,7 +18,7 @@
 
 					header('location: login.html');
 				}else{
-					echo "invalid email";
+					echo "invalid ";
 				}
 			}else{
 				echo "invalid password";
