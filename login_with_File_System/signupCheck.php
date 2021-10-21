@@ -13,7 +13,7 @@
 		
 
 					$myfile = fopen('user.txt', 'a');
-					$user = $username."|".$password."|".$email."\r\n";
+					$user = $username."|".$password."|".$email;
 					fwrite($myfile, $user);
 					fclose($myfile);
 

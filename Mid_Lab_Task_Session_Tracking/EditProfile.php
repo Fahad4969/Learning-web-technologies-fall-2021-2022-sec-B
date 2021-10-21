@@ -21,7 +21,7 @@
 				<tr>
 					<td>Password</td>
                     <th><?=$_SESSION['user']['password']?> </th>
-                    <th><a href="./ChangePassword.php">Change Password</a><br></th>
+                    <th><a href="ChangePassword.php">Change Password</a><br></th>
 				</tr>
 				<tr>
 					<td>Email</td>
@@ -42,12 +42,12 @@
 	</form>
 </div>
     <div class="dashboard">
-        <a href="./home.html">Home</a> <br>
-        <a href="./viewProfile.php">View Profile</a> <br>
-        <a href="./EditProfile.php">Edit Profile</a><br>
-        <a href="./profilePicture.php">Change Profile picture</a><br>
-        <a href="./ChangePassword.php">Change Password</a><br>
-        <a href="./logout.php">logout</a> <br>
+        <a href="home.html">Home</a> <br>
+        <a href="viewProfile.php">View Profile</a> <br>
+        <a href="EditProfile.php">Edit Profile</a><br>
+        <a href="profilePicture.php">Change Profile picture</a><br>
+        <a href="ChangePassword.php">Change Password</a><br>
+        <a href="logout.php">logout</a> <br>
     </div>
 </body>
 </html>
