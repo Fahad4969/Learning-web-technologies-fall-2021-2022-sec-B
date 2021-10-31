@@ -1,0 +1,298 @@
+<?php
+	if(isset($_COOKIE['flag'])){
+?>
+
+<html>
+<head>
+	<title>Founder</title>
+</head>
+<body style="background-color:Silver;">
+
+<?php
+	
+	include('header.php');
+?>
+<a href="home.php">BACK TO HOME</a>
+
+<h1 align="center">  List Of Founders  </h1>
+
+</table>
+<table border="1" style="width: 100%;">
+<colgroup>
+  <col span="4" style="background-color: #D6EEEE">
+</colgroup>
+<tr>
+<th>Founder ID</th>
+<th>Comapy Name</th>
+<th>CEO</th>
+<th>Joined Date</th>
+</tr>
+<tr>
+    <td>1234</td>
+    <td>ABC</td>
+    <td>Rahim</td>
+    <td>10-25-2017</td>
+
+    
+</tr>
+<tr>
+    <td>4567</td>
+    <td>DEF</td>
+    <td>Karim</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>8919</td>
+    <td>GEH</td>
+    <td>Jabbar</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1112</td>
+    <td>IJK</td>
+    <td>Jafor</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1314</td>
+    <td>KLM</td>
+    <td>Ikbal</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>4567</td>
+    <td>DEF</td>
+    <td>Karim</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>8919</td>
+    <td>GEH</td>
+    <td>Jabbar</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1112</td>
+    <td>IJK</td>
+    <td>Jafor</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>8919</td>
+    <td>GEH</td>
+    <td>Jabbar</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1112</td>
+    <td>IJK</td>
+    <td>Jafor</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1314</td>
+    <td>KLM</td>
+    <td>Ikbal</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>4567</td>
+    <td>DEF</td>
+    <td>Karim</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>8919</td>
+    <td>GEH</td>
+    <td>Jabbar</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1112</td>
+    <td>IJK</td>
+    <td>Jafor</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1314</td>
+    <td>KLM</td>
+    <td>Ikbal</td>
+    <td>10-25-2017</td>
+    <tr>
+    <td>8919</td>
+    <td>GEH</td>
+    <td>Jabbar</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1112</td>
+    <td>IJK</td>
+    <td>Jafor</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1314</td>
+    <td>KLM</td>
+    <td>Ikbal</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>4567</td>
+    <td>DEF</td>
+    <td>Karim</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>8919</td>
+    <td>GEH</td>
+    <td>Jabbar</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1112</td>
+    <td>IJK</td>
+    <td>Jafor</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1234</td>
+    <td>ABC</td>
+    <td>Rahim</td>
+    <td>10-25-2017</td>
+
+    
+</tr>
+<tr>
+    <td>4567</td>
+    <td>DEF</td>
+    <td>Karim</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>8919</td>
+    <td>GEH</td>
+    <td>Jabbar</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1112</td>
+    <td>IJK</td>
+    <td>Jafor</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1314</td>
+    <td>KLM</td>
+    <td>Ikbal</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>4567</td>
+    <td>DEF</td>
+    <td>Karim</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>8919</td>
+    <td>GEH</td>
+    <td>Jabbar</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1112</td>
+    <td>IJK</td>
+    <td>Jafor</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>8919</td>
+    <td>GEH</td>
+    <td>Jabbar</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1112</td>
+    <td>IJK</td>
+    <td>Jafor</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1314</td>
+    <td>KLM</td>
+    <td>Ikbal</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>4567</td>
+    <td>DEF</td>
+    <td>Karim</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>8919</td>
+    <td>GEH</td>
+    <td>Jabbar</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1112</td>
+    <td>IJK</td>
+    <td>Jafor</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1314</td>
+    <td>KLM</td>
+    <td>Ikbal</td>
+    <td>10-25-2017</td>
+    <tr>
+    <td>8919</td>
+    <td>GEH</td>
+    <td>Jabbar</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1112</td>
+    <td>IJK</td>
+    <td>Jafor</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1314</td>
+    <td>KLM</td>
+    <td>Ikbal</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>4567</td>
+    <td>DEF</td>
+    <td>Karim</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>8919</td>
+    <td>GEH</td>
+    <td>Jabbar</td>
+    <td>10-25-2017</td>
+</tr>
+<tr>
+    <td>1112</td>
+    <td>IJK</td>
+    <td>Jafor</td>
+    <td>10-25-2017</td>
+</tr>
+</tr>
+</table>
+</form>
+<p align="center"> Copyright © 2021 by Get Your Fund </p>
+
+</body>
+</html>
+
+<?php
+ 
+ }else{
+ 	header('location: login.html');
+ }
+
+?>
