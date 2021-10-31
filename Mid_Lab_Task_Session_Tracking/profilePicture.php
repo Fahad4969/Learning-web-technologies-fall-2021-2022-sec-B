@@ -27,12 +27,12 @@
 	</form>
 </div>
     <div class="dashboard">
-        <a href="./Home.html">Home</a> <br>
-        <a href="./viewProfile.php">View Profile</a> <br>
-        <a href="./EditProfile.php">Edit Profile</a><br>
-        <a href="./profilePicture.php">Change Profile picture</a><br>
-        <a href="./ChangePassword.php">Change Password</a><br>
-        <a href="./logout.php">logout</a> <br>
+        <a href="Home.html">Home</a> <br>
+        <a href="viewProfile.php">View Profile</a> <br>
+        <a href="EditProfile.php">Edit Profile</a><br>
+        <a href="profilePicture.php">Change Profile picture</a><br>
+        <a href="ChangePassword.php">Change Password</a><br>
+        <a href="logout.php">logout</a> <br>
     </div>
 </body>
 </html>

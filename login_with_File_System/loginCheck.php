@@ -10,9 +10,7 @@
 			
 				$myfile = fopen('user.txt', 'r');				
 				$data = fread($myfile, filesize('user.txt'));
-				//fgets();
-				//feof();
-				//while
+			
 				$myuser = explode('|', $data);
 				if(trim($myuser[0]) == $username && trim($myuser[1]) == $password){
 					setcookie('flag', 'true', time()+3600, '/');
