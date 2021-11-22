@@ -3,6 +3,47 @@
 <head>
 	<title>Calculator</title>
     <link rel="stylesheet" type="text/css" href="calc.css">
+	<script>
+		$(document).ready(function(){
+
+			$('input[type=button]').click(function(){
+				var num = $(this).val();
+				var old = $('#display').html();
+				if( num === 'C' ){
+					$('#display').html('');
+					return;
+				}
+				if( num === '=' ){
+					$('#display').html(old);
+					return;
+				}
+				$.ajax({
+						url:'calc.php',
+						type: "POST",
+						data:{'action':'operation','num':num,'old':old},
+						success: function(msg){
+							$('#display').html(msg);
+						}
+					}).error(function(){
+						$('#display').html('error');}
+					   );
+			});
+			$('#eql').click(function(){
+				var num = $('#display').html();
+				var old = $('#display').html();
+				$.ajax({
+						url:'ajax.php',
+						type: "POST",
+						data:{'action':'equal', 'num':num, 'old':old},
+						success: function(msg){
+							$('#display').html(msg);
+						}
+					}).error(function(){
+						$('#display').html('error');}
+					   );
+			});
+		});
+	</script>
 </head>
 <body >
 	<div class="container">
@@ -52,6 +93,5 @@
 			</tr>
 		</table>
 	</div>
-	<script type="text/javascript" src="calc.php"></script>
 </body>
 </html>
